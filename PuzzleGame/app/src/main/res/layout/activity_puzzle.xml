@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuzzleActivity"
+    android:id="@+id/relativeLayoutPuzzle"
+    android:background="#1364D5">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutAbove"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:background="@drawable/bottom_round_layout">
+
+        <ImageButton
+            android:id="@+id/ibPuzzleBoard"
+            android:layout_width="58dp"
+            android:layout_height="53dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="60dp"
+
+            android:layout_marginBottom="10dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/puzzle_board" />
+
+        <ImageButton
+            android:id="@+id/ibHelp"
+            android:layout_width="54dp"
+            android:layout_height="53dp"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="?android:selectableItemBackground"
+
+            android:src="@drawable/help" />
+
+        <ImageButton
+            android:id="@+id/ibRefresh"
+            android:layout_width="54dp"
+            android:layout_height="53dp"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:selectableItemBackground"
+
+            android:src="@drawable/refresh" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/txtRound"
+        android:textSize="16sp"
+        android:textColor="#fffffa"
+
+        android:layout_below="@id/txtNumRound"
+        android:layout_marginLeft="5mm"/>
+
+    <TextView
+        android:id="@+id/txtNumRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/relativeLayoutAbove"
+        android:layout_marginLeft="6mm"
+        android:layout_marginTop="5mm"
+
+        android:text="@string/txtNumRound"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/txtRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/txtRight"
+        android:textSize="16sp"
+        android:textColor="#fffffa"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtNumRight"/>
+
+    <TextView
+        android:id="@+id/txtNumRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/relativeLayoutAbove"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+
+        android:text="@string/txtNumRight"
+
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/txtPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/txtPoint"
+        android:textSize="16sp"
+        android:textColor="#fffffa"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5mm"
+        android:layout_below="@id/txtNumPoint"/>
+
+    <TextView
+        android:id="@+id/txtNumPoint"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/relativeLayoutAbove"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="31dp"
+
+        android:text="@string/txtNumPoint"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+</RelativeLayout>

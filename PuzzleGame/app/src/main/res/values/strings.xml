@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Puzzle Game</string>
+    <string name="btnNewGame">New Game</string>
+    <string name="btnExit">Exit</string>
+    <string name="txtRound">Round</string>
+    <string name="txtNumRound">0</string>
+    <string name="txtRight">Right</string>
+    <string name="txtNumRight">0</string>
+    <string name="txtPoint">Point</string>
+    <string name="txtNumPoint">0</string>
+</resources>
