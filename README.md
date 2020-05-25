@@ -8,8 +8,8 @@ If you are interested in my desktop version, you can try: https://github.com/Nho
 
 # Features:
 * Drag and drop a piece:  
-If it's right position, you will be get scores (depend on your round) and increase the number of right pieces.  
-If not, you will be substract scores(depend on your round) and update the number of right pieces.  
+If it's correct position, you will be gotten scores (depend on your round) and increase the number of right pieces.  
+If not, you will be substracted scores(depend on your round) and update the number of right pieces.  
 ![alt](https://user-images.githubusercontent.com/48643699/82745874-73755e80-9db3-11ea-9794-20bb1dd070e6.jpg)  
   
 * Help:  
